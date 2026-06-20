@@ -1,3 +1,6 @@
+import { dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -9,6 +12,7 @@ const nextConfig = {
       },
     ],
   },
+  outputFileTracingRoot: dirname(fileURLToPath(import.meta.url)),
   // Next.js 15: turbopack is stable and default for dev
   experimental: {
     // optimizePackageImports for shadcn/radix components

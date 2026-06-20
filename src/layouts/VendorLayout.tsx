@@ -59,7 +59,7 @@ export default function VendorLayout({ children }: { children: React.ReactNode }
           <nav className="p-3 space-y-1 flex-1 overflow-y-auto">
             {navItems.map(item => {
               const Icon = item.icon;
-              const isActive = location === item.href || (item.href !== "/vendor" && location.startsWith(item.href));
+              const isActive = location === item.href || (item.href !== "/vendor" && location?.startsWith(item.href));
               return (
                 <Link key={item.href} href={item.href}>
                   <div
