@@ -1,3 +1,3 @@
 "use client";
-import Checkout from "@/pages/customer/Checkout";
+import Checkout from "@/page-components/customer/Checkout";
 export default function Page() { return <Checkout />; }

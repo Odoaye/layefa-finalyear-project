@@ -1,3 +1,3 @@
 "use client";
-import ResetPassword from "@/pages/auth/ResetPassword";
+import ResetPassword from "@/page-components/auth/ResetPassword";
 export default function Page() { return <ResetPassword />; }

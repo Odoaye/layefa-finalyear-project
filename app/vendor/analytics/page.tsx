@@ -1,3 +1,3 @@
 "use client";
-import VendorAnalytics from "@/pages/vendor/VendorAnalytics";
+import VendorAnalytics from "@/page-components/vendor/VendorAnalytics";
 export default function Page() { return <VendorAnalytics />; }

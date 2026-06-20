@@ -1,3 +1,3 @@
 "use client";
-import AdminVendors from "@/pages/admin/AdminVendors";
+import AdminVendors from "@/page-components/admin/AdminVendors";
 export default function Page() { return <AdminVendors />; }

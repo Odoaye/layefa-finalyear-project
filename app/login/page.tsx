@@ -1,3 +1,3 @@
 "use client";
-import Login from "@/pages/auth/Login";
+import Login from "@/page-components/auth/Login";
 export default function Page() { return <Login />; }

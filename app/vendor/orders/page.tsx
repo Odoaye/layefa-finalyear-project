@@ -1,3 +1,3 @@
 "use client";
-import VendorOrders from "@/pages/vendor/VendorOrders";
+import VendorOrders from "@/page-components/vendor/VendorOrders";
 export default function Page() { return <VendorOrders />; }

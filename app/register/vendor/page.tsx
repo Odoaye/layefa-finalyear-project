@@ -1,3 +1,3 @@
 "use client";
-import RegisterVendor from "@/pages/auth/RegisterVendor";
+import RegisterVendor from "@/page-components/auth/RegisterVendor";
 export default function Page() { return <RegisterVendor />; }

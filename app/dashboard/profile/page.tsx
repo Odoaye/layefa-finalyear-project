@@ -1,3 +1,3 @@
 "use client";
-import CustomerProfile from "@/pages/customer/Profile";
+import CustomerProfile from "@/page-components/customer/Profile";
 export default function Page() { return <CustomerProfile />; }

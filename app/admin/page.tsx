@@ -1,3 +1,3 @@
 "use client";
-import AdminOverview from "@/pages/admin/AdminOverview";
+import AdminOverview from "@/page-components/admin/AdminOverview";
 export default function Page() { return <AdminOverview />; }

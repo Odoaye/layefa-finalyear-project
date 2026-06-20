@@ -1,3 +1,3 @@
 "use client";
-import AdminAnalytics from "@/pages/admin/AdminAnalytics";
+import AdminAnalytics from "@/page-components/admin/AdminAnalytics";
 export default function Page() { return <AdminAnalytics />; }

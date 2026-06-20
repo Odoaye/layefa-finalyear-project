@@ -1,3 +1,3 @@
 "use client";
-import ForgotPassword from "@/pages/auth/ForgotPassword";
+import ForgotPassword from "@/page-components/auth/ForgotPassword";
 export default function Page() { return <ForgotPassword />; }

@@ -1,3 +1,3 @@
 "use client";
-import Compare from "@/pages/customer/Compare";
+import Compare from "@/page-components/customer/Compare";
 export default function Page() { return <Compare />; }

@@ -1,3 +1,3 @@
 "use client";
-import AddProduct from "@/pages/vendor/AddProduct";
+import AddProduct from "@/page-components/vendor/AddProduct";
 export default function Page() { return <AddProduct />; }

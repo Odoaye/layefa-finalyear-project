@@ -1,3 +1,4 @@
 "use client";
-import VendorProducts from "@/pages/vendor/VendorProducts";
+import VendorProducts from "@/page-components/vendor/VendorProducts";
 export default function Page() { return <VendorProducts />; }
+

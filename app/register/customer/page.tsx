@@ -1,3 +1,3 @@
 "use client";
-import RegisterCustomer from "@/pages/auth/RegisterCustomer";
+import RegisterCustomer from "@/page-components/auth/RegisterCustomer";
 export default function Page() { return <RegisterCustomer />; }
